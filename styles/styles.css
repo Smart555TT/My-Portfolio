@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,100..900;1,100..900&family=Roboto+Slab:wght@100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+html {
+    --white: #E3DFD3;
+    --cream: #CABDAC;
+    --brown: #875F45;
+    --olive: #5B5547;
+    --black: #302F2D;
+}
+
+body {
+    font-family: "Inter Tight", Arial, Helvetica, sans-serif;
+    margin: 0%;
+}
+
+h1 {
+    width: 325px;
+    padding: 0%;
+    /* border: 2px solid #302F2D; */
+}
+
+nav ol {
+    display: flex;
+    flex-direction: row;    
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 30px 30%;
+    margin: 0%;
+    list-style: none;
+}
+
+header a {
+    font-weight: 600;
+    font-size: 1rem;
+    text-decoration: none;
+    color:#302F2D;
+}
+
+header {
+    background-color:#E3DFD3;
+    position: sticky;
+    top: 0%;
+}
+
+.but {
+    background-color: #5B5547;
+    border-radius: 12px;
+    padding: 6px 12px;
+}
+
+.but a {
+    color: #E3DFD3;
+}
+
+nav ol li:last-child {
+    position: absolute;
+    right: 30px;
+}
+
+body main {
+    background-color:#302F2D;
+    color:#CABDAC;
+}
+
+main {
+    margin: 0%;
+}
+
+main section {
+    padding-top: 75px;
+}
