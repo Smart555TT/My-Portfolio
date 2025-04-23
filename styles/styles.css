@@ -11,11 +11,13 @@ html {
 body {
     font-family: "Inter Tight", Arial, Helvetica, sans-serif;
     margin: 0%;
+    line-height: 1.6;
 }
 
 h1 {
     width: 325px;
     padding: 0%;
+    font-size: 2.5rem;
     /* border: 2px solid #302F2D; */
 }
 
@@ -24,8 +26,8 @@ nav ol {
     flex-direction: row;    
     align-items: center;
     justify-content: space-evenly;
-    padding: 30px 30%;
-    margin: 0%;
+    padding: 20px 25%;
+    margin: 0;
     list-style: none;
 }
 
@@ -68,4 +70,53 @@ main {
 
 main section {
     padding-top: 75px;
+    max-width: 900px;
+    margin: auto;
+    padding-left: 20px;
+    padding-right: 20px;
 }
+
+h2 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+    color: var(--cream);
+}
+
+h3 {
+    font-size: 1.25rem;
+    margin-bottom: 5px;
+}
+
+footer {
+    background-color: var(--white);
+    color: var(--black);
+    padding: 40px 20px;
+    text-align: center;
+}
+
+footer h2 {
+    color: #302F2D;
+}
+
+footer a{
+    color: #302F2D;
+    text-decoration: none;
+}
+
+/* nav ol li a:hover {
+    color: var(--brown);
+    text-decoration: underline;
+    transition: 0.3s;
+} */
+
+/* @media (max-width: 768px) {
+    nav ol {
+        flex-direction: column;
+        gap: 10px;
+        padding: 20px;
+    }
+
+    nav ol li:last-child {
+        position: static;
+    }
+} */
